@@ -45,6 +45,8 @@ In a nutshell RBFN may be convenient to fit a given dataset (very high accuracy 
 
 ### Project content ###
 
+Programming language: Matlab
+
 Content of this project: 
 
 * 'MNIST_dataset.mat': MNIST dataset
