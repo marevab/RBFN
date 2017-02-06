@@ -1,6 +1,6 @@
 # Radial-Basis Function Network for handwritten number classification
 
-### Synopsis ###
+## Synopsis ##
 This project took place during the module _Neural networks_ at NUS (EE5904R).
 The goal of this project is to classify handwritten digits (from 0 to 9) from MNIST dataset by using a Radial-Basis Function Network. 
 
@@ -23,7 +23,7 @@ The learning process consists of two stages:
 1. Parameterize the hidden units: define their center and width. It can be done by random selection or clustering. The centers are directly taken from the training dataset.
 2. Find weight values between hidden and output units by computing the _interpolation matrix_.
 
-### Results ###
+## Results ##
 
 The RBFN has been used to classify handwritten digits 1 and 8 only (MNIST dataset by extracting the samples of label other than 1 and 8). For each sample, the network gives a real output and a threshold is used to separate the predictions as label 1 and the predictions as label 8. The resulting error rate/accuracy of the prediction depends on the threshold. 
 
@@ -43,7 +43,7 @@ Concerning the 'Fixed Centres Selected at Random' method, the accuracy of the tr
 
 In a nutshell RBFN may be convenient to fit a given dataset (very high accuracy for the training set) but may overfit! One has to choose the right number of hidden unit (not too high) and to use regularization. 
 
-### Project content ###
+## Project on GitHub ##
 
 Programming language: Matlab
 
@@ -61,6 +61,6 @@ To make the program run:
 1. run _init_
 2. run one of the Matlab scripts _rbfn_standard_ / rbfn_regularization_ 
 
-### Author ###
+## Author ##
 
 Mareva Brixy (marevabrixy@gmail.com)
